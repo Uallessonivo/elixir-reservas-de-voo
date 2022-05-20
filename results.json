@@ -4,18 +4,18 @@
   "invalid": [],
   "passed": [
     {
-      "describe": "build/4",
-      "file": "c:/Users/uallesson.nunes/Documents/GitHub/elixir-reservas-de-voo/test/bookings/booking_test.exs",
-      "line": 7,
-      "module": "Elixir.Flightex.Bookings.BookingTest",
-      "test": "test build/4 when all params are valid, returns a booking"
-    },
-    {
       "describe": "call/1",
       "file": "c:/Users/uallesson.nunes/Documents/GitHub/elixir-reservas-de-voo/test/bookings/create_or_update_test.exs",
       "line": 13,
       "module": "Elixir.Flightex.Bookings.CreateOrUpdateTest",
       "test": "test call/1 when all params are valid, returns a valid tuple"
+    },
+    {
+      "describe": "build/4",
+      "file": "c:/Users/uallesson.nunes/Documents/GitHub/elixir-reservas-de-voo/test/bookings/booking_test.exs",
+      "line": 7,
+      "module": "Elixir.Flightex.Bookings.BookingTest",
+      "test": "test build/4 when all params are valid, returns a booking"
     },
     {
       "describe": "get/1",
@@ -72,6 +72,20 @@
       "line": 43,
       "module": "Elixir.Flightex.Users.AgentTest",
       "test": "test get/1 when the user is found, returns the user"
+    },
+    {
+      "describe": "generate/2",
+      "file": "c:/Users/uallesson.nunes/Documents/GitHub/elixir-reservas-de-voo/test/bookings/report_test.exs",
+      "line": 41,
+      "module": "Elixir.Flightex.Bookings.ReportTest",
+      "test": "test generate/2 when given from date and to date, return the content"
+    },
+    {
+      "describe": "generate/1",
+      "file": "c:/Users/uallesson.nunes/Documents/GitHub/elixir-reservas-de-voo/test/bookings/report_test.exs",
+      "line": 15,
+      "module": "Elixir.Flightex.Bookings.ReportTest",
+      "test": "test generate/1 when called, return the content"
     },
     {
       "describe": "call/1",
